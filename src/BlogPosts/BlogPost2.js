@@ -91,11 +91,11 @@ Sed elementum velit.
             {rec.map((item)=>{
                 return(
                     // Makes use of already stored PostLinkData, this is the Reccommended or 'Rec'
-                    <div className='recPost'>
+                    <Link style={{ textDecoration: 'none', color: 'black'}} to = {item.link}><div className='recPost'>
                         <img src = {item.image}></img>
                         <h3>{item.header}</h3>
                         <h4>{item.desc}</h4>
-                    </div>
+                    </div></Link>
                 )
             })}
             </div>

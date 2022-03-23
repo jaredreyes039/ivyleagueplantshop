@@ -35,7 +35,7 @@ header{
 
 .Heading{
     color: whitesmoke;
-    -webkit-text-stroke: black 6px;
+    -webkit-text-stroke: black 3px;
     text-align: center;
     font-size: 10vw;
     font-weight: 900;
